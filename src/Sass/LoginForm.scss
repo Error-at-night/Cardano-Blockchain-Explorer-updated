@@ -1,0 +1,117 @@
+@import "variables";
+
+.loginForm-dark, .loginForm-light {
+    min-height: 100vh;
+    color: $White;
+}
+
+.loginForm-dark .first-roww {
+    background-color: $LightBlack;
+    border: 3px solid $DarkGray;
+    border-radius: 12px;
+}
+
+.loginForm-light .first-roww {
+    background-color: $White;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 12px;
+}
+
+.loginForm-dark .first-roww img {
+    border-radius: 12px;
+
+}
+
+.loginForm-light .first-roww img {
+    border-radius: 12px;
+
+}
+
+.loginForm-dark .first-roww .second-col h1 {
+    color: $White;
+    font-size: 30px;
+}
+
+.loginForm-light .first-roww .second-col h1 {
+    color: $LightBlack;
+    font-size: 30px;
+}
+
+.loginForm-dark .first-roww .second-col li {
+    list-style-type: none;
+}
+
+.loginForm-light .first-roww .second-col li {
+    list-style-type: none;
+}
+
+.loginForm-dark .first-roww .second-col label, .loginForm-dark .first-roww .second-col input {
+    display: block;
+}
+
+.loginForm-light .first-roww .second-col label, .loginForm-light .first-roww .second-col input {
+    display: block;
+}
+
+.loginForm-dark .first-roww .second-col label {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.loginForm-light .first-roww .second-col label {
+    font-size: 20px;
+    margin-top: 20px;
+    color: $LightBlack;
+}
+
+.loginForm-dark .first-roww .second-col input {
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: 3px solid $DarkGray;
+}
+
+.loginForm-light .first-roww .second-col input {
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: 3px solid $DarkGray;
+}
+
+.loginForm-dark .first-roww .second-col p.forget-password {
+    margin-top: 10px;
+}
+
+.loginForm-light .first-roww .second-col p.forget-password {
+    margin-top: 10px;
+}
+ 
+.loginForm-light .first-roww .second-col .new-to-cardano {
+    color: $Black;
+}
+
+.loginForm-dark .first-roww .second-col button.login {
+    padding: 5px 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 2px solid $DarkGray;
+    color: $White;
+    background-color: $Black;
+    margin-bottom: 15px;
+}
+
+.loginForm-light .first-roww .second-col button.login {
+    padding: 5px 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 3px solid $DarkGray;
+    color: $White;
+    background-color: $Black;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 992px) {
+    .loginForm-dark .first-roww .second-col h1 {
+        font-size: 25px;
+    }
+}

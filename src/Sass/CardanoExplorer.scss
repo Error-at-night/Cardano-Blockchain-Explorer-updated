@@ -1,0 +1,139 @@
+// variables
+@import "variables";
+
+.cardano-blockchain-explorer-dark {
+    background-color: $LightBlack;
+    border-radius: 8px;
+    border: 1px solid $DarkGray;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.cardano-blockchain-explorer-light {
+    background-color: $White;
+    border-radius: 8px;
+    // border: 1px solid $DarkGray;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+// first row
+.cardano-blockchain-explorer-dark .first-row h2 {
+    font-size: 25px;
+    color: $White;
+    margin-bottom: 30px;
+}
+
+.cardano-blockchain-explorer-light .first-row h2 {
+    font-size: 25px;
+    color: $Black;
+    margin-bottom: 30px;
+}
+
+// .cardano-blockchain-explorer .first-row p {
+//     color: $White;
+// }
+
+.cardano-blockchain-explorer-dark .first-row input[type="search"] {
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 10px 20px;
+    width: 70%;
+    border: 1px solid $DarkGray;
+    background-color: $LightBlack;
+    color: $White;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    outline: none;
+}
+
+.cardano-blockchain-explorer-light .first-row input[type="search"] {
+    padding: 10px 20px;
+    width: 70%;
+    border: 1px solid $DarkGray;
+    background-color: $LightGray;
+    color: $Black;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    outline: none;
+}
+
+.cardano-blockchain-explorer-dark .first-row input[type="button"]{
+    padding: 11.2px 10px;
+    border: 0;
+    color: $White;
+    background-color: $LightBlue;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    outline: none;
+}
+
+.cardano-blockchain-explorer-light .first-row input[type="button"]{
+    padding: 11.2px 10px;
+    border: 0;
+    color: $White;
+    background-color: $LightBlue;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    outline: none;
+}
+// end of first row
+
+// second row
+.cardano-blockchain-explorer-dark .second-row {
+    box-shadow: 0px 16px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 8px;
+    background-color: $Black;
+}
+
+.cardano-blockchain-explorer-light .second-row {
+    border-radius: 8px;
+    background-color: $White;
+}
+
+.cardano-blockchain-explorer-dark .second-row .column {
+    background-color: $LightBlack;
+    border-radius: 8px;
+}
+
+.cardano-blockchain-explorer-light .second-row .column {
+    background-color: $LightGray;
+    border-radius: 8px;
+}
+
+.cardano-blockchain-explorer-dark .second-row .ada-container .barIcon {
+    color: $White;
+}
+
+.cardano-blockchain-explorer-light .second-row .ada-container .barIcon {
+    color: $Black;
+}
+
+.cardano-blockchain-explorer-dark .second-row p.ada{
+    color: $DarkGray;
+    margin-bottom: 3px;
+}
+
+.cardano-blockchain-explorer-light .second-row p.ada{
+    color: $DarkGray;
+    margin-bottom: 3px;
+}
+
+.cardano-blockchain-explorer-dark .second-row p.price {
+    color: $White;
+    margin-bottom: 0;
+}
+
+.cardano-blockchain-explorer-light .second-row p.price {
+    color: $Black;
+    margin-bottom: 0;
+}
+// end of second row
+
+// media query
+@media screen and (max-width: 314px) {
+    .cardano-blockchain-explorer-dark .first-row input[type="search"] {
+        width: 67%;
+    }
+
+    .cardano-blockchain-explorer-light .first-row input[type="search"] {
+        width: 67%;
+    }
+}

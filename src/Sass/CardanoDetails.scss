@@ -1,0 +1,89 @@
+@import "variables";
+
+.cardano-blockchain-details-dark {
+    background-color: $LightBlack;
+    border-radius: 8px;
+    border: 1px solid $DarkGray;
+    color: $White;
+}
+
+.cardano-blockchain-details-light {
+    background-color: $White;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 8px;
+}
+
+.cardano-blockchain-details-dark h2 {
+    color: $White;
+    font-size: 25px;
+}
+
+.cardano-blockchain-details-light h2 {
+    color: $Black;
+    font-size: 25px;
+}
+
+.cardano-blockchain-details-dark p {
+    color: $White;
+}
+
+.cardano-blockchain-details-light p {
+    color: $Black;
+}
+
+.cardano-blockchain-details-dark .error {
+    color: $White;
+    font-size: 18px;
+}
+
+.cardano-blockchain-details-light .error {
+    color: $Black;
+    font-size: 18px;
+}
+
+.cardano-blockchain-details-dark .row-one {
+    background-color: $Black;
+    border-radius: 10px;
+}
+
+.cardano-blockchain-details-dark .row-one .column {
+    background-color: $LightBlack;
+    border-radius: 10px;
+}
+
+.cardano-blockchain-details-light .row-one .column {
+    background-color: $LightGray;
+    border-radius: 10px;
+}
+
+.cardano-blockchain-details-dark .row-two {
+    background-color: $Black;
+    border-radius: 10px;
+}
+
+.cardano-blockchain-details-dark .row-two .column {
+    background-color: $LightBlack;
+    border-radius: 10px;
+}
+
+.cardano-blockchain-details-light .row-two .column {
+    background-color: $LightGray;
+    border-radius: 10px;
+}
+
+.cardano-blockchain-details-dark .row-three {
+    background-color: $Black;
+    border-radius: 10px;
+}
+
+.cardano-blockchain-details-dark .row-three .column {
+    background-color: $LightBlack;
+    border-radius: 10px;
+}
+
+.cardano-blockchain-details-light .row-three .column {
+    background-color: $LightGray;
+    border-radius: 10px;
+}
+
+

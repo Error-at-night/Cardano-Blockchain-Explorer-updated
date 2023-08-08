@@ -1,0 +1,11 @@
+@import "variables";
+
+.main-dark {
+    background-color: $Black;
+    min-height: 100vh;
+}
+
+.main-light {
+    background-color: $LightGray;
+    min-height: 100vh;
+}

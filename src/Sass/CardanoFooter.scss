@@ -1,0 +1,60 @@
+// variables
+@import "variables";
+
+.cardano-footer-dark {
+    color: $White;
+}
+
+.cardano-footer-light {
+    color: $Black;
+}
+
+.cardano-footer-dark .container {
+    background-color: $LightBlack;
+    border-radius: 8px;
+    border: 1px solid $DarkGray;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.cardano-footer-light .container {
+    background-color: $White;
+    border-radius: 8px;
+    // border: 1px solid $DarkGray;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.cardano-footer-dark .container .footer-row {
+    background-color: $Black;
+    border-radius: 10px;
+}
+
+.cardano-footer-light .container .footer-row {
+    background-color: $White;
+    border-radius: 10px;
+}
+
+.cardano-footer-dark .container .footer-row h4 {
+    color: $DarkGray;
+}
+
+.cardano-footer-light .container .footer-row h4 {
+    color: $LightBlack;
+}
+
+.cardano-footer-dark .container .footer-row .column {
+    background-color: $LightBlack;
+    border-radius: 10px;
+}
+
+.cardano-footer-light .container .footer-row .column {
+    background-color: $LightGray;
+    border-radius: 10px;
+}
+
+.cardano-footer-dark a {
+    color: $White;
+}
+
+.cardano-footer-light a {
+    color: $Black;
+}

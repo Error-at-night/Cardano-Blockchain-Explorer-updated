@@ -1,0 +1,9 @@
+@import "variables";
+
+.toggle-button {
+    color: $DarkGray;
+    &:hover {
+        color: $White;
+        cursor: pointer;
+    }
+}
